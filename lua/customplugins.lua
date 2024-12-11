@@ -21,6 +21,13 @@ customPluginT.lazy = {
       require('lsp_signature').setup(opts)
     end,
   },
+  {
+    'kawre/neotab.nvim',
+    event = 'InsertEnter',
+    opts = {
+      -- configuration goes here
+    },
+  },
 }
 
 return customPluginT
